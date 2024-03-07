@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #F2D7B6;
+}
+
+.wrapper{
+	text-align: center;
+}
+
+img{
+	height: 30rem;
+	width: 30rem;
+	border-radius: 25px;
+}
+
+.wrapper div{
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+button{
+	border-radius: 10px;
+	color: pink;
+	background-color: black;
+	padding: 7px 45px;
+	font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button:hover{
+	background-color: pink;
+	color: black;
+}
+
+#huh-image{
+	display: none;
+}
